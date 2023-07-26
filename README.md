@@ -15,3 +15,7 @@ This plugin attempts to assist with converting figma drawings into code for elm-
 `FigmaPlugin.js` and `FigmaPlugin.elm` contain the plugin source code.
 
 To compile any changes, run `yarn run build-figma-win` or `yarn run build-figma-mac`. If you've installed the plugin (see Usage) then Figma will detect the new version and you can use it immediately.
+
+## Credits
+
+Thanks to [Realia](https://realia.se/) for letting me create this during work hours and then open source it!
