@@ -1,0 +1,13 @@
+<div></div>
+<script>
+
+const area = document.createElement('textarea');
+document.body.appendChild(area);
+area.value = "copy-content";
+area.focus();
+area.select();
+const result = document.execCommand('copy');
+//document.body.removeChild(area);
+
+setTimeout(parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*'), 1000);
+</script>

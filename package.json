@@ -1,0 +1,10 @@
+{
+  "private": "true",
+  "scripts": {
+    "build-figma-win": "cd figma-plugin && elm make FigmaPlugin.elm --output=main.js --optimize && @type main.js > code.js && @type FigmaPlugin.js >> code.js",
+    "build-figma-mac": "cd figma-plugin && elm make FigmaPlugin.elm --output=main.js --optimize && cat main.js > code.js && cat FigmaPlugin.js >> code.js"
+  },
+  "dependencies": {
+    "elm-review": "^2.10.2"
+  }
+}
