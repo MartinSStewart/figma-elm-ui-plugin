@@ -8,7 +8,7 @@ This plugin attempts to assist with converting figma drawings into code for elm-
 2. Click on your user icon and select Plugins from the dropdown
 3. Click the plus icon and then "Import plugin from manifest..." and then select the manifest.json file in this folder.
 4. Now you can run the plugin by right clicking in a Figma page and in the context menu going to Plugins -> Development -> Export elm-ui (you can press ctrl+alt+p to re-run it)
-5. Running the plugin will generate Elm code and copy it to your clipboard for you to use within the Realia Elm code.
+5. Running the plugin will generate Elm code and copy it to your clipboard for you to use in your app.
 
 ## Development
 
